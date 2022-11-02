@@ -1,7 +1,5 @@
- 
 /* #General */
---------------------------------------------------------------*/
-body {
+--------------------------------------------------------------*/ body {
   background-color: #f5f5f5;
   color: #4e4e4e;
   padding: 0px;
@@ -45,11 +43,16 @@ a:hover {
   color: #4e4e4e;
 }
 
-.box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
+.box-shadow,
+.card-blog,
+.work-box,
+.service-box,
+.paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a, .button:hover {
+.box-shadow-a,
+.button:hover {
   text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
 }
@@ -221,7 +224,13 @@ a:hover {
 }
 
 /*------/ Ul resect /------*/
-.ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
+.ul-resect,
+.widget-tags ul,
+.widget-sidebar .list-sidebar,
+.box-comments .list-comments,
+.blog-wrapper .post-meta ul,
+.list-ico,
+.socials ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
@@ -270,7 +279,7 @@ a:hover {
   background-color: #cde1f8;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   width: 25px;
 }
 
@@ -467,7 +476,8 @@ a:hover {
   white-space: nowrap;
   padding: 10px 0 10px 30px;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -481,7 +491,8 @@ a:hover {
   position: relative;
   text-transform: uppercase;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -498,11 +509,16 @@ a:hover {
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 80%;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #fff;
 }
 .navbar .dropdown ul {
@@ -531,7 +547,9 @@ a:hover {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #0078ff;
 }
 .navbar .dropdown:hover > ul {
@@ -611,18 +629,24 @@ a:hover {
 .navbar-mobile > ul > li {
   padding: 0;
 }
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
   visibility: hidden;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #4e4e4e;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #0078ff;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -645,7 +669,9 @@ a:hover {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #0078ff;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -776,5 +802,8 @@ footer .credits {
   margin-bottom: 0;
 }
 footer .credits a {
+  color: #fff;
+}
+.copyright-box a {
   color: #fff;
 }
