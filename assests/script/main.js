@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  /**
+  /*
    * Easy selector helper function
    */
   const select = (el, all = false) => {
@@ -13,7 +13,7 @@
     }
   }
 
-  /**
+  /*
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
@@ -27,14 +27,14 @@
     }
   }
 
-  /**
+  /*
    * Easy on scroll event listener 
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
-  /**
+  /*
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
@@ -54,7 +54,7 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
-  /**
+  /*
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
@@ -72,7 +72,7 @@
     })
   }
 
-  /**
+  /*
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
@@ -88,7 +88,7 @@
     onscroll(document, headerScrolled)
   }
 
-  /**
+  /*
    * Back to top button
    */
   let backtotop = select('.back-to-top')
@@ -104,7 +104,7 @@
     onscroll(document, toggleBacktotop)
   }
 
-  /**
+  /*
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function (e) {
@@ -113,7 +113,7 @@
     this.classList.toggle('bi-x')
   })
 
-  /**
+  /*
    * Mobile nav dropdowns activate
    */
   on('click', '.navbar .dropdown > a', function (e) {
@@ -123,7 +123,7 @@
     }
   }, true)
 
-  /**
+  /*
    * Scrool with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function (e) {
@@ -141,7 +141,7 @@
     }
   }, true)
 
-  /**
+  /*
    * Scroll with ofset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
@@ -152,7 +152,7 @@
     }
   });
 
-  /**
+  /*
    * Intro type effect
    */
   const typed = select('.typed')
@@ -168,14 +168,14 @@
     });
   }
 
-  /**
+  /*
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
+  /*
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
@@ -193,7 +193,7 @@
     }
   });
 
-  /**
+  /*
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
@@ -210,7 +210,7 @@
     }
   });
 
-  /**
+  /*
    * Preloader
    */
   let preloader = select('#preloader');
@@ -221,3 +221,20 @@
   }
 
 })()
+
+/* 
+ *Quotes Section
+*/
+let quote = document.getElementById('quote');
+let author = document.getElementById('author');
+let quoteBtn = document.getElementById('quote-btn');
+ 
+
+quoteBtn.addEventListener("click",()=>{
+  fetch("https://api.quotable.io/random")
+  .then((res)=>res.json())
+  .then((data)=>{
+      quote.innerHTML = data.content;
+      author.innerHTML = data.author;
+  })
+})
