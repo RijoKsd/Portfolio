@@ -728,31 +728,7 @@ a:hover {
   color: #4e4e4e;
 }
 
-/*======================================
-//--//-->   COUNTER
-======================================*/
-
-.counter-box {
-  color: #fff;
-  text-align: center;
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-}
-
-.counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
+ 
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
