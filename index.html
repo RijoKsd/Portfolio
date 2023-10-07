@@ -656,12 +656,24 @@
                       <h5 class="title-left">Send Message Us</h5>
                     </div>
                     <div>
-                      <form
+                      <!-- <form
                         action=""
                         method="post"
                         role="form"
                         class="contactForm"
+                      > -->
+                      <form
+                        action="https://formsubmit.co/rijobdk@gmail.com"
+                        method="POST"
+                        class="contactForm"
                       >
+                        <input type="hidden" name="_template" value="table" />
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value="rijoksd.netlify.com"
+                        />
+
                         <div id="sendmessage">
                           Your message has been sent. Thank you!
                         </div>
@@ -677,6 +689,7 @@
                                 placeholder="Your Name"
                                 data-rule="minlen:4"
                                 data-msg="Please enter at least 4 chars"
+                                required
                               />
                               <div class="validation"></div>
                             </div>
@@ -688,6 +701,7 @@
                                 class="form-control"
                                 name="email"
                                 id="email"
+                                required
                                 placeholder="Your Email"
                                 data-rule="email"
                                 data-msg="Please enter a valid email"
@@ -702,9 +716,11 @@
                                 class="form-control"
                                 name="subject"
                                 id="subject"
+required
+                                minlength="4"
                                 placeholder="Subject"
-                                data-rule="minlen:4"
-                                data-msg="Please enter at least 8 chars of subject"
+                                
+                                data-msg="Please enter at least 4 chars of subject"
                               />
                               <div class="validation"></div>
                             </div>
@@ -716,6 +732,8 @@
                                 name="message"
                                 rows="5"
                                 data-rule="required"
+                                required
+                                minlength="4"
                                 data-msg="Please write something for us"
                                 placeholder="Message"
                               ></textarea>
@@ -740,46 +758,53 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis dolorum dolorem soluta quidem expedita aperiam
-                        aliquid at. Totam magni ipsum suscipit amet? Autem nemo
-                        esse laboriosam ratione nobis mollitia inventore?
+                        Ready to turn your ideas into functional and captivating
+                        web applications? I'm your go-to MERN Stack developer,
+                        eager to bring your digital dreams to life. Whether it's
+                        building dynamic websites or crafting powerful APIs,
+                        I've got you covered. Let's collaborate on your next
+                        project! Reach out today, and let's start coding magic
+                        together.
                       </p>
                       <ul class="list-ico">
                         <li>
-                          <span class="ion-ios-location"></span> 329 WASHINGTON
-                          ST BOSTON, MA 02108
+                          <span class="ion-ios-location"></span> Kasargod,
+                          Kerala
                         </li>
                         <li>
-                          <span class="ion-ios-telephone"></span> (617) 557-0089
+                          <span class="ion-ios-telephone"></span>
+                          <a href=" tel:+919446626926">944 66 26 926</a>
                         </li>
                         <li>
-                          <span class="ion-email"></span> contact@example.com
+                          <span class="ion-email"></span>
+                          <a href="mailto:rijobdk@gmail.com"
+                            >rijobdk@gmail.com</a
+                          >
                         </li>
                       </ul>
                     </div>
                     <div class="socials">
                       <ul>
                         <li>
-                          <a href=""
+                          <a href="https://www.linkedin.com/in/rijoksd"
                             ><span class="ico-circle"
                               ><i class="ion-social-linkedin"></i></span
                           ></a>
                         </li>
                         <li>
-                          <a href=""
+                          <a href="https://github.com/RijoKsd"
                             ><span class="ico-circle"
                               ><i class="ion-social-github"></i></span
                           ></a>
                         </li>
                         <li>
-                          <a href=""
+                          <a href="https://www.instagram.com/rijo_ksd/"
                             ><span class="ico-circle"
                               ><i class="ion-social-instagram"></i></span
                           ></a>
                         </li>
                         <li>
-                          <a href=""
+                          <a href="https://twitter.com/Rijo_Ksd"
                             ><span class="ico-circle"
                               ><i class="ion-social-twitter"></i></span
                           ></a>
@@ -828,8 +853,6 @@
     <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="./assets/lib/lightbox/js/lightbox.min.js"></script>
     <script src="./assets/lib/typed/typed.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="./assets/js/main.js"></script>
