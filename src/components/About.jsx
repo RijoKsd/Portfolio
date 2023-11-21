@@ -34,10 +34,7 @@ const About = () => {
             I’m a software engineer mainly focused on React ecosystem.
           </h1>
           <p className=" text-[2rem] max-md:text-[1.5rem] text-[#838697]">
-            I have multiple years of experience in both UI/UX and Frontend
-            Development. Over the past 3 years, I've strengthened fundamentals
-            in web engineering that I'm eager to deploy on challenging projects
-            to expand my current skill set and tech stack.
+          I'm a freelancer and a  MERN stack developer with a passion for technology. I specialize in web app development using MongoDB, Express.js, React.js, and Node.js. With a learning mindset, I stay up-to-date with the latest trends to transform your ideas into reality.
           </p>
         </motion.div>
       </div>
