@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "./Project";
-import rickandmorty from "../../assets/project-1.png";
-import magictrick from "../../assets/project-2.png";
-import camerashop from "../../assets/project-3.png";
-import bookshelf from "../../assets/project-4.png";
-import reacthooks from "../../assets/project-5.png";
-import reactperformance from "../../assets/project-6.png";
+import calculator from "../../assets/calculator.png";
+import sketch from "../../assets/etch-a-sketch.png";
+import rps from "../../assets/rock-paper-scissors.png";
+import notekeeper from "../../assets/notekeeper.png";
+import todo from "../../assets/todo.png";
+import supermart from "../../assets/supermart.png";
+
 
 import { motion } from "framer-motion";
 
@@ -31,43 +32,51 @@ const Projects = () => {
         className=" grid grid-cols-1 gap-[5rem] md:grid-cols-2  lg:grid-cols-2 xl:grid-cols-3 "
       >
         <Project
-          img={bookshelf}
-          title="Bookshelf a full React Application Workshop"
-          github="https://github.com/yassinehaimouch/bookshelf"
-          desc={`Building a full React application from scratch. using (React JS, React Query, Bootstrap).`}
+          img={notekeeper}
+          title="NoteKeeper - Your Personal Note-Keeping Website"
+          github="https://github.com/RijoKsd/NoteKeeper"
+          demo="https://notekeepers.vercel.app/"
+          desc=" NoteKeeper is a note-keeping website that allows you to create, edit, and delete notes."
         />
         <Project
-          img={reacthooks}
-          title="Advanced React Hooks Workshop"
-          github="https://github.com/yassinehaimouch/react-hooks"
-          desc="It provides comprehensive training on React Hooks, covering topics like built-in Hooks, custom Hooks, and performance."
+          img={rps}
+          title="Rock Paper Scissor Game"
+          github="https://github.com/RijoKsd/Rock-Paper-Scissor"
+          demo="https://rijoksd.github.io/Rock-Paper-Scissor/"
+          desc=" A simple Rock Paper Scissor game made using HTML, CSS, and JavaScript."
         />
         <Project
-          img={reactperformance}
-          title="React Performance Workshop"
-          github="https://github.com/yassinehaimouch/react-performance"
-          desc="It focuses on optimizing React application performance by covering, memoization, code splitting, and rendering. "
+          img={sketch}
+          title="Etch A Sketch"
+          github="https://github.com/RijoKsd/todo"
+          demo="https://rijoksd.github.io/Etch-A-Sketch/"
+          desc=" Etch A Sketch game crafted with HTML, CSS, and JavaScript"
         />
         <Project
-          img={rickandmorty}
-          title="Rick And Morty Characters With API"
-          github="https://github.com/yassinehaimouch/Rick-and-Morty"
-          demo="https://mortyandrick.vercel.app/"
-          desc="This project consumes The Rick and Morty API to render a beautiful interface with all characters from the show."
+          img={todo}
+          title="Todo App"
+          github="https://github.com/RijoKsd/todo"
+          demo="https://todo-lis.netlify.app/"
+          desc="
+          A JavaScript-powered to-do list that allows users to add, edit, and delete tasks using local storage.
+          "
         />
         <Project
-          img={magictrick}
-          title="Beautiful Magic Trick With Playing Cards"
-          github="https://github.com/yassinehaimouch"
-          demo="https://magic-trick.vercel.app/"
-          desc="As Me Magician and developer i builded Beautiful dynamic Magic Trick With (Face Up Face down) Playing Cards."
+          img={calculator}
+          title="Calculator"
+          github="https://github.com/RijoKsd/Calculator"
+          demo="https://rijoksd.github.io/Calculator/"
+          desc=" 
+          A simple calculator made using HTML, CSS, and JavaScript"
         />
         <Project
-          img={camerashop}
-          title="Shop To Increase Decrease Products"
-          github="https://github.com/yassinehaimouch/CameraShop"
-          demo="https://camera-shop-beige.vercel.app/"
-          desc="You can ADD Product To Cart, increase decrease Products, Get Total Cost, Remove Product and Clear Shopping Cart."
+          img={supermart}
+          title="Shopping Cart With QR Code"
+          github="https://github.com/RijoKsd/SuperMart-Shopping-with-QR-Code"
+          desc=" 
+          A project using html,css,js, python flask, android java, and mysql  database, user can scan product and add to cart and pay.
+          
+          "
         />
       </motion.div>
     </div>
