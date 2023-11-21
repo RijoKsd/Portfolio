@@ -31,10 +31,10 @@ const Contact = () => {
           <h1 className=" flex items-center gap-[1rem] text-[1.5rem] max-lg:text-[1rem]">
             {" "}
             <AiFillMail className=" w-[25px] h-[25px]" />
-            yassinehaimouch@proton.me
+            rijobdk@gmail.com
           </h1>
           <a
-            href="mailto:yassinehaimouch@proton.me"
+            href="mailto:rijobdk@gmail.com"
             className=" cursor-pointer mt-[2rem] relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
           >
             <span className="relative px-5 py-2.5 transition-all ease-in duration-75 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">

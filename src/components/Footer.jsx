@@ -9,17 +9,17 @@ const Footer = () => {
         <span className="text-sm text-gray-500 sm:text-centertext-gray-400">
           Designed & Developed by{" "}
           <a
-            href="https://github.com/yassinehaimouch"
+            href="https://github.com/rijoksd"
             rel="noreferrer"
             target="_blank"
             className="hover:underline"
           >
-            Yassine Haimouch
+           Rijo Sebastian
           </a>
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
-            href="https://github.com/yassinehaimouch"
+            href="https://github.com/rijoksd"
             rel="noreferrer"
             target="_blank"
             className="text-gray-500 hover:text-white"
@@ -27,7 +27,7 @@ const Footer = () => {
             <AiFillGithub className="w-[20px] h-[20px]" />
           </a>
           <a
-            href="https://www.instagram.com/gitcoder/"
+            href="https://www.instagram.com/rijo_ksd"
             rel="noreferrer"
             target="_blank"
             className="text-gray-500 hover:text-white"
@@ -35,7 +35,7 @@ const Footer = () => {
             <AiFillInstagram className="w-[20px] h-[20px]" />
           </a>
           <a
-            href="https://www.linkedin.com/in/yassinehaimouch/"
+            href="https://www.linkedin.com/in/rijoksd"
             rel="noreferrer"
             target="_blank"
             className="text-gray-500 hover:text-white"
